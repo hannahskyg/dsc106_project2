@@ -24,6 +24,13 @@
         margin: 0 auto;
       }
 
+      img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin-inline: auto;
+      }
+
       /* Headings */
 
       h1,
@@ -156,22 +163,22 @@
     </header>
 
     <main>
-      <h2>Proposition: [STATE PROPOSITION]</h2>
+      <h2>Proposition: Older People are More Likely to Complain Against Police Officers</h2>
 
       <section>
         <h3>FOR the Proposition</h3>
 
         <figure>
-          <img src="IMAGE_FILENAME" alt="" />
-          <figcaption>BRIEF CAPTION HERE.</figcaption>
+          <img src="images/ccrb complaints 30 vs 30.png" alt="for prop visualization" />
+          <figcaption>Older adults lead in CCRB complaints against police officers, reinforcing the claim that older adults complain more than younger adults.</figcaption>
         </figure>
 
         <p>Design Decisions and Rationale:</p>
 
         <ul>
-          <li>RATIONALE_1</li>
-          <li>RATIONALE_2</li>
-          <li>RATIONALE_3</li>
+          <li>Used an age cutoffs at 30, data framing at what is considered "older people," aligning the visualization with the proposition being argued.</li>
+          <li>Utilized a bar chart to emphasize a significant difference in CCRB complaints among older and younger groups.</li>
+          <li>Sticking with one color, it keeps attention on bar height differences, emphasizing the persuasive focus on how much older adults complain.</li>
         </ul>
       </section>
 
@@ -179,16 +186,16 @@
         <h3>AGAINST the Proposition</h3>
 
         <figure>
-          <img src="IMAGE_FILENAME" alt="" />
-          <figcaption>BRIEF CAPTION HERE.</figcaption>
+          <img src="images/total_complaints by age.png" alt="against prop visualization" />
+          <figcaption>With complaints dropping steadily among older age groups, the data highlights how younger adults are more likely to write complaints against police officers.</figcaption>
         </figure>
 
         <p>Design Decisions and Rationale:</p>
 
         <ul>
-          <li>RATIONALE_1</li>
-          <li>RATIONALE_2</li>
-          <li>RATIONALE_3</li>
+          <li>Binarizing the age groups to show off the overall data and making the age trend easier to read instantly.</li>
+          <li>Using a line chart illustrates a signfiicant negative slope, emphasizing that younger people make more complaints.</li>
+          <li>Using age bins hide differences in population size with each age group, which can distort the differences in complaints, making the argument more persuasive.</li>
         </ul>
       </section>
 
